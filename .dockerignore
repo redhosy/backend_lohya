@@ -1,0 +1,43 @@
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# Git
+.git/
+.gitignore
+
+# IDE
+.vscode/
+.idea/
+
+# Environment (use docker-compose env_file instead)
+.env
+
+# Database files
+*.db
+*.sqlite3
+
+# Uploads (mounted as volume)
+uploads/
+
+# ML models (not needed in backend)
+*.onnx
+*.pt
+*.pth
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Documentation
+*.md
+LICENSE

@@ -1,0 +1,721 @@
+[
+  {
+    "id": "edu_bercak_01",
+    "kategori": "Bercak",
+    "kategori_edukasi": "Penyakit",
+    "judul": "Mengenal Musuh Utama: Jamur Mata Katak (Cercospora capsici)",
+    "ringkasan": "Bercak daun bukan sekadar daun kering. Ini adalah serangan jamur Cercospora capsici yang memakan nutrisi daun. Jika dibiarkan, jamur ini bisa membuat petani kehilangan panen hingga 30-40%.",
+    "image": {
+      "url": "https://asset.kompas.com/crops/xRfEbxmYPJSZqKUz-F9ktopLLSk=/0x77:375x452/1200x800/data/photo/2022/11/28/63847b2635b1f.jpg",
+      "caption": "Ciri khas bercak mata katak: tengah putih, tepi coklat",
+      "source": "Kompas.com, November 2022"
+    },
+    "isi": [
+      {
+        "subjudul": "Cara Jamur Menyerang",
+        "konten": "Secara biologis, spora jamur ini terbang terbawa angin atau percikan air hujan. Saat menempel di daun basah, spora berkecambah dan menembus pori-pori daun (stomata). Jamur ini merusak jaringan klorofil, membuat bercak bulat berukuran 0,5 cm dengan lubang di tengahnya seperti mata katak."
+      },
+      {
+        "subjudul": "Tindakan Tegas di Lahan",
+        "konten": "Jamur ini ibarat kanker pada tanaman. Daun yang sudah bercak parah tidak akan bisa sembuh. Segera petik daun yang sakit, masukkan ke kantong plastik, dan bakar di luar lahan. Jangan biarkan berserakan di tanah karena sporanya bisa bertahan hingga musim depan."
+      }
+    ],
+    "tips_lapangan": [
+      "Amati daun tua di bagian bawah terlebih dahulu, jamur sering mulai dari area yang dekat dengan tanah.",
+      "Cuci tangan atau semprot alkohol pada alat potong setelah membuang daun sakit."
+    ],
+    "catatan": "Penyemprotan fungisida tidak mengembalikan daun yang rusak, melainkan melindungi daun baru yang masih sehat.",
+    "sumber": [
+      {
+        "judul": "Pengelolaan Tanaman Terpadu pada Cabai Merah",
+        "instansi": "Universitas Sriwijaya",
+        "url": "https://semnas.bpfp-unib.com/index.php/perlintan/article/view/7",
+        "tahun": "2023",
+        "catatan": "Jurnal ilmiah patologi tanaman cabai."
+      }
+    ]
+  },
+  {
+    "id": "edu_bercak_02",
+    "kategori": "Bercak",
+    "kategori_edukasi": "Budidaya",
+    "judul": "Jangan Tanam Terlalu Rapat: Atur Jarak Tanam",
+    "ringkasan": "Menanam cabai terlalu rapat bukan berarti panen lebih banyak. Jarak tanam yang rapat menciptakan udara lembab (sumpek) yang sangat disukai jamur.",
+    "image": {
+      "url": "https://asset.kompas.com/crops/WC60eCon-2DXKlXl9LFssl1XLgE=/57x0:901x563/1200x800/data/photo/2022/12/16/639c8ec27ff97.jpg",
+      "caption": "Jarak tanam ideal cabai",
+      "source": "Kompas.com, Januari 2023"
+    },
+    "isi": [
+      {
+        "subjudul": "Mengapa Udara Penting?",
+        "konten": "Jamur penyebab bercak daun berkembang biak sangat cepat pada suhu hangat dan kelembaban di atas 77%. Jika daun saling bersentuhan, sirkulasi udara terhenti. Daun menjadi lambat kering setelah hujan atau embun pagi."
+      },
+      {
+        "subjudul": "Solusi Budidaya",
+        "konten": "Gunakan jarak tanam ideal minimal 50-60 cm. Pada musim hujan, gunakan pola tanam zigzag. Pola ini memastikan sinar matahari bisa masuk hingga ke pangkal batang dan angin bisa mengeringkan embun dengan cepat."
+      }
+    ],
+    "tips_lapangan": [
+      "Jika tajuk tanaman sudah saling tumpang tindih, lakukan pemangkasan daun bawah.",
+      "Arahkan bedengan membujur dari timur ke barat agar mendapat sinar matahari maksimal."
+    ],
+    "catatan": "Sinar matahari dan angin adalah 'fungisida' alami gratis dari alam.",
+    "sumber": [
+      {
+        "judul": "Budi Daya Cabai (Panduan Teknis)",
+        "instansi": "Kementerian Pertanian RI",
+        "url": "https://hortikultura.pertanian.go.id/wp-content/uploads/2024/10/Budi-Daya-Cabai.pdf",
+        "tahun": "2024",
+        "catatan": "Panduan resmi GAP (Good Agricultural Practices)."
+      }
+    ]
+  },
+  {
+    "id": "edu_bercak_03",
+    "kategori": "Bercak",
+    "kategori_edukasi": "Penyakit",
+    "judul": "Bercak Akibat Alternaria (Bercak Kering Coklat)",
+    "ringkasan": "Selain Cercospora, bercak daun juga sering disebabkan oleh jamur Alternaria solani. Jamur ini menyerang saat tanaman stres atau kekurangan gizi.",
+    "image": {
+      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjQT4IXucmrALfxKncimnJJ1HGUvajaGbu4tvwnCLsW79MraXKXwdq7M3py4NNePHXpMG9lUcKai6MLdAyPeDPV3Ji1DIw0Dj-3DBFrrLzl1fEFr5P35RROiQKDe1TKHDDKP3qDF3K0m4le/s1600/bercak+alternaria.jpg",
+      "caption": "Ciri khas bercak Alternaria: ada garis melingkar seperti target panahan",
+      "source": "petunjukbudidaya.blogspot.com, April 2015"
+    },
+    "isi": [
+      {
+        "subjudul": "Identifikasi Gejala",
+        "konten": "Berbeda dengan mata katak, bercak Alternaria biasanya lebih besar, tidak beraturan, berwarna coklat tua, dan jika dilihat dari dekat memiliki garis-garis melingkar konsentris seperti papan target panahan."
+      },
+      {
+        "subjudul": "Cara Penanganan",
+        "konten": "Jamur ini menginfeksi dari luka pada daun. Jangan melakukan penyemprotan pupuk dengan tekanan alat (sprayer) yang terlalu keras hingga melukai daun. Gunakan fungisida berbahan aktif Mankozeb atau Klorotalonil segera setelah gejala terlihat."
+      }
+    ],
+    "tips_lapangan": [
+      "Periksa juga area buah, Alternaria bisa menyebabkan busuk pangkal buah."
+    ],
+    "catatan": "Deteksi aplikasi ini bersifat visual, pastikan raba daun. Daun yang terserang jamur akan terasa kasar dan rapuh di bagian bercaknya.",
+    "sumber": [
+      {
+        "judul": "Penyakit Bercak Daun pada Cabai",
+        "instansi": "BPTP Jambi",
+        "url": "https://repository.pertanian.go.id/server/api/core/bitstreams/057dc36a-0ef7/content",
+        "tahun": "2014",
+        "catatan": "Identifikasi Alternaria solani."
+      }
+    ]
+  },
+  {
+    "id": "edu_bercak_04",
+    "kategori": "Bercak",
+    "kategori_edukasi": "Budidaya",
+    "judul": "Pentingnya Pemangkasan (Perempelan) Daun Bawah",
+    "ringkasan": "Daun tua di bagian bawah tanaman tidak lagi produktif menghasilkan makanan, tetapi justru menjadi tempat favorit jamur bercak bersembunyi.",
+    "image": {
+      "url": "https://scontent.fpdg2-1.fna.fbcdn.net/v/t39.30808-6/488523224_1086949130117828_6057123289867077451_n.jpg?stp=dst-jpg_tt6&cstp=mx1816x1210&ctp=p180x540&_nc_cat=108&ccb=1-7&_nc_sid=833d8c&_nc_ohc=Sf7gFL84UQUQ7kNvwG6-K39&_nc_oc=AdqQneh68QkeGTyMZNLV9vdQLwx_Iw2sljPfn0pDvp3JJ15SHSuhbyBqcPMR9VOuq0g&_nc_zt=23&_nc_ht=scontent.fpdg2-1.fna&_nc_gid=LN-4xCPXMDhuL3HyZ2hotQ&_nc_ss=7b289&oh=00_Af93mJ-54DeAKnfZ6xbmsA7YB09NqwrffaXCdLBtPLgpgQ&oe=6A451C3C",
+      "caption": "Cara merempel tunas air dan daun bawah cabai",
+      "source": "Facebook, Perkebunan Dan Pertanian, Maret 2025"
+    },
+    "isi": [
+      {
+        "subjudul": "Biologi Pemangkasan",
+        "konten": "Daun yang menyentuh tanah sangat berisiko terkena cipratan air hujan yang membawa spora jamur dari dalam tanah. Dengan membuang daun di bawah cabang 'Y' (cabang pertama), nutrisi tanaman akan terfokus ke atas untuk membentuk bunga dan buah."
+      },
+      {
+        "subjudul": "Langkah Eksekusi",
+        "konten": "Lakukan pemangkasan pada pagi hari yang cerah agar luka potong segera mengering dan tertutup kalus, sehingga patogen tidak masuk melalui luka."
+      }
+    ],
+    "tips_lapangan": [
+      "Sisakan sedikit tangkai (1 cm) saat memotong agar tidak melukai batang utama.",
+      "Jangan merempel saat cuaca hujan atau mendung."
+    ],
+    "catatan": "Pemangkasan juga memudahkan aplikasi penyemprotan pupuk atau pestisida agar menembus ke seluruh bagian tanaman.",
+    "sumber": [
+      {
+        "judul": "Teknik Budidaya Cabai Intensif",
+        "instansi": "Puslitbanghorti",
+        "url": "http://hortikultura.litbang.pertanian.go.id",
+        "tahun": "2021",
+        "catatan": "Praktek pemangkasan cabai."
+      }
+    ]
+  },
+  {
+    "id": "edu_bercak_05",
+    "kategori": "Bercak",
+    "kategori_edukasi": "Pemupukan",
+    "judul": "Bahaya Kelebihan Nitrogen di Musim Hujan",
+    "ringkasan": "Memberikan pupuk Urea atau pupuk Nitrogen berlebih di musim hujan membuat dinding sel daun menjadi tipis, berair, dan sangat mudah dijebol oleh jamur bercak daun.",
+    "image": {
+      "url": "https://blogger.googleusercontent.com/img/a/AVvXsEin8xbLLtbaLPY9m_Rynwt-3l3E1IbKmHhWcPivPkXJDeB1TBmvd9pSiPkALv5KixGSwveXEMMjt-eCORaRl_i3YrGFpf-K6YbfBZ4stBd_Fk9kt5dfL5JJl8M05n-rPS7nFwtXSPzVyFYzVbz3qlock0I8UkI7Wfc7KiAt6oJLz9KEYok5IfXjxUlVwA=s16000",
+      "caption": "Tanaman rebah/rentan akibat kelebihan Nitrogen",
+      "source": "batukita.com, Januari 2022"
+    },
+    "isi": [
+      {
+        "subjudul": "Efek Samping Nitrogen",
+        "konten": "Nitrogen (N) memang merangsang pertumbuhan daun menjadi hijau legam. Namun, terlalu banyak N membuat jaringan tanaman menjadi lunak (sukulen). Jamur sangat mudah menembus dinding sel yang lunak ini."
+      },
+      {
+        "subjudul": "Solusi Nutrisi",
+        "konten": "Kurangi dosis pupuk N pada musim hujan. Perbanyak unsur Kalsium (Ca) dan Kalium (K). Kalsium berfungsi merekatkan sel-sel daun sehingga menjadi lebih tebal dan keras, menyerupai 'benteng' yang sulit ditembus patogen."
+      }
+    ],
+    "tips_lapangan": [
+      "Gunakan pupuk kalsium semprot (foliar) jika curah hujan sangat tinggi.",
+      "Hentikan aplikasi Urea jika tanaman sudah memasuki masa berbunga."
+    ],
+    "catatan": "Tanaman yang subur berlebihan sama rentannya dengan tanaman yang kekurangan gizi.",
+    "sumber": [
+      {
+        "judul": "Pemupukan Berimbang Tanaman Hortikultura",
+        "instansi": "Balittanah Kementan",
+        "url": "https://balittanah.litbang.pertanian.go.id",
+        "tahun": "2020",
+        "catatan": "Peran unsur hara makro dan mikro."
+      }
+    ]
+  },
+  {
+    "id": "edu_bercak_06",
+    "kategori": "Bercak",
+    "kategori_edukasi": "Penyakit",
+    "judul": "Aturan Main Penggunaan Fungisida",
+    "ringkasan": "Penyemprotan obat jamur (fungisida) tidak boleh sembarangan. Petani harus tahu bedanya fungisida kontak dan fungisida sistemik.",
+    "image": {
+      "url": "https://img.antarafoto.com/cache/1200x798/2010/06/13/penyemprotan-fungisida-29dg-dom.webp",
+      "caption": "Penyemprotan fungisida pada tanaman",
+      "source": "AntaraFoto, Juni 2010"
+    },
+    "isi": [
+      {
+        "subjudul": "Kontak vs Sistemik",
+        "konten": "Fungisida kontak (seperti Mankozeb, Propineb) bekerja seperti 'jas hujan'. Ia melindungi permukaan daun dari spora jamur baru, tetapi luntur jika terkena hujan deras. Fungisida sistemik (seperti Difenokonazol) masuk ke dalam pembuluh tanaman dan menyembuhkan jaringan dari dalam."
+      },
+      {
+        "subjudul": "Strategi Aplikasi",
+        "konten": "Gunakan fungisida kontak sebagai pencegahan rutin setiap 5-7 hari. Jika bercak sudah banyak menyebar (lebih dari 10% daun), segera gunakan fungisida sistemik. Selalu gunakan zat perekat pembasah saat aplikasi di musim hujan."
+      }
+    ],
+    "tips_lapangan": [
+      "Semprot di pagi hari saat stomata daun terbuka lebar.",
+      "Pastikan ujung semprotan (nozzle) menghasilkan kabut halus agar menempel rata di atas dan bawah daun."
+    ],
+    "catatan": "Jangan mencampur fungisida sembarangan tanpa petunjuk penyuluh, karena bahan aktif bisa saling menggumpal.",
+    "sumber": [
+      {
+        "judul": "Direktori Pestisida Indonesia",
+        "instansi": "Kementerian Pertanian",
+        "url": "https://pestisida.id",
+        "tahun": "2023",
+        "catatan": "Panduan penggunaan fungisida."
+      }
+    ]
+  },
+  {
+    "id": "edu_bercak_07",
+    "kategori": "Bercak",
+    "kategori_edukasi": "Budidaya",
+    "judul": "Penggunaan Mulsa Hitam Perak Cegah Cipratan Patogen",
+    "ringkasan": "Mulsa bukan hanya sekadar penutup gulma. Warna perak pada mulsa berfungsi memantulkan sinar matahari yang tidak disukai serangga dan menjaga daun bawah dari cipratan tanah berspora jamur.",
+    "image": {
+      "url": "https://asset.kompas.com/crops/LPJZQMQpqXBITdvp31fMhRW9bLc=/100x67:900x600/1200x800/data/photo/2022/11/23/637df4f211a15.jpg",
+      "caption": "Pemasangan mulsa pada bedengan",
+      "source": "Kompas.com, November 2022"
+    },
+    "isi": [
+      {
+        "subjudul": "Fungsi Fisik Mulsa",
+        "konten": "Tanah adalah rumah bagi jutaan spora jamur penyakit. Saat hujan deras jatuh ke bedengan terbuka, tanah akan menciprat ke bagian bawah daun, membawa inokulum penyakit. Mulsa plastik hitam perak memblokir cipratan ini secara efektif."
+      },
+      {
+        "subjudul": "Aturan Pemasangan",
+        "konten": "Warna perak menghadap ke atas untuk memantulkan sinar, warna hitam di bawah untuk memblokir cahaya agar gulma tidak tumbuh dan menjaga akar tetap hangat di malam hari."
+      }
+    ],
+    "tips_lapangan": [
+      "Tarik mulsa sekencang mungkin saat terik matahari agar plastiknya memuai dan menempel ketat di bedengan.",
+      "Buat lubang tanam minimal 1 minggu sebelum pindah bibit agar gas beracun dari tanah keluar."
+    ],
+    "catatan": "Investasi mulsa di awal sangat menghemat biaya tenaga kerja pencabutan gulma dan pembelian obat penyakit nantinya.",
+    "sumber": [
+      {
+        "judul": "Manfaat Mulsa pada Tanaman Sayuran",
+        "instansi": "BPPSDMP Kementan",
+        "url": "https://pustaka.bppsdmp.pertanian.go.id",
+        "tahun": "2025",
+        "catatan": "Pengendalian mekanis."
+      }
+    ]
+  },
+  {
+    "id": "edu_keriting_01",
+    "kategori": "Keriting",
+    "kategori_edukasi": "Hama",
+    "judul": "Mendeteksi Thrips: Si Kecil Pembuat Keriting Tembaga",
+    "ringkasan": "Jika daun cabai keriting menggulung ke atas dan warnanya berubah menjadi kecoklatan atau keperakan, itu bukan kurang air, melainkan akibat isapan hama Thrips parvispinus.",
+    "image": {
+      "url": "https://jurnalagro.com/wp-content/uploads/2024/06/60794f46605cb.jpg",
+      "caption": "Gejala daun keriting akibat Thrips dengan bercak keperakan",
+      "source": "Jurnal Agro, Juni 2024"
+    },
+    "isi": [
+      {
+        "subjudul": "Cara Thrips Merusak",
+        "konten": "Thrips adalah serangga seukuran ujung jarum (1 mm) yang bersembunyi di pucuk daun muda dan bunga. Mereka menggaruk sel epidermis daun dan mengisap cairannya. Udara akan masuk ke sel daun yang kosong tersebut, sehingga memantulkan cahaya dan terlihat berwarna keperakan."
+      },
+      {
+        "subjudul": "Penanganan Cepat",
+        "konten": "Gunakan insektisida berbahan aktif Abamektin secara bergantian (rotasi) dengan Imidakloprid. Thrips sangat aktif di sore hari, jadi lakukan penyemprotan pada jam 15.00-17.00."
+      }
+    ],
+    "tips_lapangan": [
+      "Ketuk bunga cabai di atas selembar kertas putih cerah. Jika ada serangga kecil memanjang yang jatuh dan berlarian, itu adalah Thrips.",
+      "Perhatikan pucuk tanaman. Jika tunas baru lambat tumbuh dan kerdil, segera ambil tindakan."
+    ],
+    "catatan": "Hama ini cepat sekali menjadi kebal. Jangan gunakan obat yang sama terus-menerus.",
+    "sumber": [
+      {
+        "judul": "Hama dan Penyakit pada Tanaman Cabai serta Pengendaliannya",
+        "instansi": "BPTP Jambi",
+        "url": "https://repository.pertanian.go.id/server/api/core/bitstreams/057dc36a-0ef7/content",
+        "tahun": "2014",
+        "catatan": "Deskripsi dan perilaku Thrips parvispinus."
+      }
+    ]
+  },
+  {
+    "id": "edu_keriting_02",
+    "kategori": "Keriting",
+    "kategori_edukasi": "Hama",
+    "judul": "Kutu Kebul (Bemisia tabaci): Kurir Virus Ganas",
+    "ringkasan": "Kutu putih kecil yang berterbangan saat daun digoyang adalah Kutu Kebul. Selain mengisap cairan daun, mereka adalah vektor (pembawa) utama Virus Gemini penyebab daun kuning keriting.",
+    "image": {
+      "url": "https://www.kampustani.com/wp-content/uploads/2020/12/Cara-Mengatasi-Kutu-Kebul-Pada-Tanaman-Cabe.jpg",
+      "caption": "Kutu kebul putih di bawah permukaan daun",
+      "source": "Kampustani.com, Febuari 2021"
+    },
+    "isi": [
+      {
+        "subjudul": "Bahaya Ganda",
+        "konten": "Kerusakan langsung akibat isapannya membuat daun berkerut dan mengecil. Kerusakan tidak langsungnya jauh lebih mematikan: mereka menyuntikkan virus Begomovirus (Gemini) ke dalam aliran getah tanaman hanya dalam waktu 15 menit setelah mengisap daun."
+      },
+      {
+        "subjudul": "Fokus Pengendalian",
+        "konten": "Kutu kebul hidup berkoloni di bagian bawah daun. Gunakan pestisida sistemik, atau gunakan semprotan sabun cuci piring ringan (konsentrasi sangat rendah) dicampur minyak nimba (neem oil) untuk merusak lapisan lilin pada tubuh kutu."
+      }
+    ],
+    "tips_lapangan": [
+      "Arahkan corong tangki semprot dari bawah ke atas agar mengenai koloni kutu kebul di bawah daun.",
+      "Serangga ini sangat menyukai musim kemarau yang panas dan kering."
+    ],
+    "catatan": "Membunuh kutu kebul adalah satu-satunya cara mencegah penyebaran virus kuning, karena virusnya sendiri tidak memiliki obat.",
+    "sumber": [
+      {
+        "judul": "Mengenal Penyakit Keriting Kuning",
+        "instansi": "MAPENA",
+        "url": "https://mapena.ac.id",
+        "tahun": "2026",
+        "catatan": "Peran vektor kutu kebul."
+      }
+    ]
+  },
+  {
+    "id": "edu_keriting_03",
+    "kategori": "Keriting",
+    "kategori_edukasi": "Hama",
+    "judul": "Virus Kuning Keriting (Bule): Cabut & Bakar Tanaman",
+    "ringkasan": "Jika daun muda mengeriting melengkung ke atas, bertekstur kaku, mengecil, dan seluruh daun berwarna kuning cerah, tanaman positif terkena Virus Gemini (Begomovirus).",
+    "image": {
+      "url": "https://digitani.ipb.ac.id/wp-content/uploads/2021/10/gejala-virus-kuning-1.jpg",
+      "caption": "Tanaman cabai kerdil dengan daun kuning terang akibat virus",
+      "source": "Digitani IPB, Oktober 2021"
+    },
+    "isi": [
+      {
+        "subjudul": "Fakta Pahit Biologi",
+        "konten": "Tidak ada satupun bahan kimia atau obat-obatan di dunia yang bisa menyembuhkan tanaman yang sudah terinfeksi virus. Virus bersatu dengan sel DNA tanaman dan menyebar ke seluruh jaringan dari akar hingga pucuk."
+      },
+      {
+        "subjudul": "Tindakan Karantina",
+        "konten": "Satu-satunya langkah tepat adalah segera cabut tanaman (eradikasi) sampai ke akarnya, masukkan karung, dan bakar jauh dari lahan. Mempertahankan satu tanaman sakit berarti membiarkan kutu kebul menjadikannya 'pabrik virus' untuk menularkan ke seluruh kebun."
+      }
+    ],
+    "tips_lapangan": [
+      "Jangan menyentuh tanaman sehat setelah kamu mencabut tanaman yang terkena virus, karena getahnya bisa menular lewat tangan atau alat.",
+      "Sisa akar di tanah tidak menularkan virus, virus hanya dibawa oleh serangga."
+    ],
+    "catatan": "Tindakan cabut ini terasa berat, tetapi mengorbankan 1 tanaman menyelamatkan 100 tanaman lainnya.",
+    "sumber": [
+      {
+        "judul": "Teknik Pengendalian Penyakit Kuning pada Tanaman Cabai",
+        "instansi": "Kementerian Pertanian RI",
+        "url": "https://hortikultura.pertanian.go.id/wp-content/uploads/2024/11/Teknik-Pengendalian-Penyakit-Kuning-Pada-Tanaman-Cabai_watermark.pdf",
+        "tahun": "2024",
+        "catatan": "Kebijakan eradikasi mutlak untuk virus."
+      }
+    ]
+  },
+  {
+    "id": "edu_keriting_04",
+    "kategori": "Keriting",
+    "kategori_edukasi": "Lingkungan",
+    "judul": "Jebakan Perangkap Kuning Lengket (Yellow Sticky Trap)",
+    "ringkasan": "Pencegahan hama tidak melulu soal pestisida kimia. Memasang perangkap lem berwarna kuning adalah cara biologis paling efektif menangkap hama vektor penyebab keriting.",
+    "image": {
+      "url": "https://pertanian.jogjakota.go.id/assets/instansi/pertanian/article/content_20201210_011841.jpeg",
+      "caption": "Perangkap kuning lengket yang dipasang di atas bedengan",
+      "source": "Pertanian Jogjakota, Desember 2020"
+    },
+    "isi": [
+      {
+        "subjudul": "Alasan Ilmiah",
+        "konten": "Kutu kebul, Thrips, dan Aphid (Kutu Daun) sangat tertarik pada panjang gelombang cahaya berwarna kuning terang. Secara naluri, mereka mengira itu adalah pucuk daun muda. Saat mendarat, mereka langsung terjebak lem khusus yang tidak mudah kering."
+      },
+      {
+        "subjudul": "Cara Aplikasi",
+        "konten": "Pasang minimal 40-50 lembar perangkap kuning per hektar. Ikat pada bilah bambu. Tinggi perangkap harus disesuaikan, usahakan 15-20 cm tepat di atas pucuk tertinggi tanaman cabai."
+      }
+    ],
+    "tips_lapangan": [
+      "Perangkap ini sekaligus menjadi alat deteksi dini (monitoring). Jika dalam 1 hari ada lebih dari 10 kutu terperangkap, segera jadwalkan penyemprotan besoknya.",
+      "Naikkan posisi perangkap seiring pertumbuhan tinggi tanaman."
+    ],
+    "catatan": "Bisa dibuat sendiri menggunakan plastik kuning yang diolesi lem tikus atau oli bekas yang dicampur minyak goreng.",
+    "sumber": [
+      {
+        "judul": "Monitoring Hama Terpadu",
+        "instansi": "Dinas Pertanian",
+        "url": "https://distan.bulelengkab.go.id",
+        "tahun": "2023",
+        "catatan": "Teknik monitoring visual hama pengisap."
+      }
+    ]
+  },
+  {
+    "id": "edu_keriting_05",
+    "kategori": "Keriting",
+    "kategori_edukasi": "Budidaya",
+    "judul": "Tumpang Sari Cabai dan Jagung (Penghalang Hama)",
+    "ringkasan": "Kutu kebul dan Aphid terbang lambat dengan bantuan hembusan angin. Menanam jagung di sekeliling bedengan cabai berfungsi sebagai 'benteng fisik' penghalang hama tersebut.",
+    "image": {
+      "url": "https://scontent.fpdg2-1.fna.fbcdn.net/v/t39.30808-6/529265732_1282258163910713_6805781887049013040_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s1080x1350&_nc_cat=104&ccb=1-7&_nc_sid=127cfc&_nc_ohc=x08drCASDtQQ7kNvwGze1tw&_nc_oc=AdqH3BUn0rcT23wlI7Q6ClbC5hzPt1P33o3pfmGKjhpaUTrvqPqMMqbSqAr5SCJfe4EJyr-x3xJuhuRm7L_u0prH&_nc_zt=23&_nc_ht=scontent.fpdg2-1.fna&_nc_gid=GLnTUpKEXm8VOzosOOdRHw&_nc_ss=7b289&oh=00_Af9H090hOFA27wY08W0Q0aEwcfaBMpKkcxcqUpEBoPUm0A&oe=6A45271E",
+      "caption": "Tanaman jagung di tepi lahan sebagai pelindung cabai",
+      "source": "Facebook, KTG Indonesia, Agustus 2025"
+    },
+    "isi": [
+      {
+        "subjudul": "Mekanisme Barrier Fisik",
+        "konten": "Angin yang membawa kawanan hama pengisap akan membentur daun jagung yang tinggi terlebih dahulu. Sebagian besar serangga akan tersangkut di daun jagung, yang mana jagung BUKAN inang dari virus Gemini. Cabai di tengah lahan akan terselamatkan."
+      },
+      {
+        "subjudul": "Aturan Tanam",
+        "konten": "Tanam 4-5 baris jagung rapat di sepanjang pinggiran/batas terluar kebun cabai. Pastikan menanam jagung 2-3 minggu lebih awal dari bibit cabai agar tinggi jagung sudah mencukupi untuk melindungi bibit muda cabai yang sangat rentan."
+      }
+    ],
+    "tips_lapangan": [
+      "Gunakan jagung manis, selain jadi benteng pelindung, petani dapat penghasilan tambahan sebelum cabai panen.",
+      "Jagung juga mengundang serangga predator (kumbang koksi) yang merupakan musuh alami kutu daun."
+    ],
+    "catatan": "Metode ini sangat dianjurkan untuk daerah endemis virus kuning.",
+    "sumber": [
+      {
+        "judul": "Pengelolaan Ekosistem Pertanian Polikultur",
+        "instansi": "Universitas Brawijaya",
+        "url": "http://fp.ub.ac.id",
+        "tahun": "2022",
+        "catatan": "Rekayasa ekologi penghalang angin."
+      }
+    ]
+  },
+  {
+    "id": "edu_keriting_06",
+    "kategori": "Keriting",
+    "kategori_edukasi": "Lingkungan",
+    "judul": "Bahaya Rumput Liar: Bersihkan Gulma Inang",
+    "ringkasan": "Lahan yang bebas gulma bukan sekadar agar terlihat rapi. Gulma berdaun lebar di sekitar lahan adalah rumah persembunyian (reservoir) bagi virus dan hama saat cabai belum ditanam.",
+    "image": {
+      "url": "https://teritorialsolok.art.blog/wp-content/uploads/2023/02/img-20230226-wa0030.jpg",
+      "caption": "Pembersihan gulma di parit antar bedengan",
+      "source": "Teritorial Solok, 2023"
+    },
+    "isi": [
+      {
+        "subjudul": "Siklus Kehidupan Virus",
+        "konten": "Virus Begomovirus dapat hidup nyaman di dalam jaringan rumput bandotan (Ageratum conyzoides), babadotan, meniran, dan krokot. Saat petani menabur bibit cabai sehat, hama dari rumput liar akan langsung berpindah menularkan virus."
+      },
+      {
+        "subjudul": "Sanitasi Total",
+        "konten": "Bersihkan rumput tidak hanya di atas bedengan, tapi juga di parit drainase dan tanggul sekeliling kebun. Jangan menanam cabai berdekatan dengan tanaman sekeluarga (tomat, terong, tembakau)."
+      }
+    ],
+    "tips_lapangan": [
+      "Semprot herbisida pratumuh sebelum lahan dipasangi mulsa plastik.",
+      "Cabut gulma saat masih kecil sebelum berbunga agar bijinya tidak menyebar."
+    ],
+    "catatan": "Kutu kebul bisa menyelinap di balik gulma pendek sekalipun.",
+    "sumber": [
+      {
+        "judul": "Manajemen Gulma Terpadu",
+        "instansi": "Kementerian Pertanian",
+        "url": "https://hortikultura.pertanian.go.id",
+        "tahun": "2024",
+        "catatan": "Daftar gulma inang virus."
+      }
+    ]
+  },
+  {
+    "id": "edu_keriting_07",
+    "kategori": "Keriting",
+    "kategori_edukasi": "Hama",
+    "judul": "Hentikan Kekebalan Hama: Rotasi Bahan Aktif",
+    "ringkasan": "Menyemprot obat yang mereknya itu-itu saja sama dengan melatih hama menjadi kebal (resisten). Kutu yang selamat akan melahirkan generasi mutan super yang tidak mempan lagi disemprot.",
+    "image": {
+      "url": "https://cropaia.com/wp-content/uploads/Spray-tractor.jpg",
+      "caption": "Ilustrasi rotasi insektisida berdasarkan Grup IRAC",
+      "source": "Cropaia.com"
+    },
+    "isi": [
+      {
+        "subjudul": "Memahami Cara Kerja Racun",
+        "konten": "Setiap insektisida punya Cara Kerja (Mode of Action) yang berbeda. Ada yang merusak saraf, ada yang merusak sistem pernapasan, dan ada yang menghambat pergantian kulit. Jika sarafnya sudah kebal terhadap Abamektin, kita harus ganti obat yang menyerang sistem pernapasannya."
+      },
+      {
+        "subjudul": "Praktik di Lapangan",
+        "konten": "Penyemprotan minggu pertama gunakan bahan aktif golongan Neonicotinoid (contoh: Imidakloprid). Penyemprotan minggu kedua ganti dengan golongan Spinosyn (contoh: Spinosad). Jangan sekadar ganti merk dagang, periksa 'Bahan Aktif' di belakang botol."
+      }
+    ],
+    "tips_lapangan": [
+      "Selalu campurkan perata/perekat saat menyemprot hama, karena tubuh serangga ditutupi lilin halus yang menolak air.",
+      "Gunakan ekstrak pestisida nabati (minyak nimba/bawang putih) di sela-sela rotasi kimia untuk memecah kekebalan."
+    ],
+    "catatan": "Penggunaan insektisida dosis tinggi yang berulang kali hanya akan merusak kantong petani dan tanah.",
+    "sumber": [
+      {
+        "judul": "Panduan Manajemen Resistensi IRAC",
+        "instansi": "Insecticide Resistance Action Committee",
+        "url": "https://irac-online.org",
+        "tahun": "2023",
+        "catatan": "Panduan klasifikasi grup bahan aktif."
+      }
+    ]
+  },
+  {
+    "id": "edu_sehat_01",
+    "kategori": "Sehat",
+    "kategori_edukasi": "Budidaya",
+    "judul": "Fondasi Awal: Gunakan Benih Unggul Tahan Virus",
+    "ringkasan": "Tanaman sehat dimulai dari DNA yang kuat. Menggunakan benih cabai hibrida bersertifikat yang memiliki ketahanan (toleran) terhadap Begomovirus adalah investasi awal terbaik.",
+    "image": {
+      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj8vg2mw-mb65VhwYUzdNJEeXIg_yLUFVBmdHuiCaEt9e3x0zvOvh_gNBARsouFiSjcsw0wLykQTbqI80k8LGb9SMbtS4S70Js8hOLE2nYmctvAjBVZXH31qOHlHAViRTW-DFZsoPE6nGad/s320/Screenshot_19.png",
+      "caption": "Label benih bersertifikat dengan logo ketahanan virus",
+      "source": "Kliktani.com, 2023"
+    },
+    "isi": [
+      {
+        "subjudul": "Pentingnya Benih Bersertifikat",
+        "konten": "Banyak patogen jamur penyebab bercak (Cercospora) bisa bersembunyi terbawa di dalam biji cabai sisa panen sebelumnya (Seed Borne Disease). Benih dari pabrik telah melalui proses sterilisasi, sehingga dipastikan nol patogen di awal tanam."
+      },
+      {
+        "subjudul": "Varietas Toleran",
+        "konten": "Pilih varietas yang pada kemasannya ada logo/tulisan 'Tahan Virus Gemini'. Meskipun diserang kutu kebul pembawa virus, tanaman dengan gen toleran tetap bisa memproduksi klorofil dan buah secara normal tanpa mengeriting parah."
+      }
+    ],
+    "tips_lapangan": [
+      "Jangan gunakan biji cabai dapur sisa sortiran pasar untuk disemai.",
+      "Rendam benih dalam air hangat (50°C) selama 15 menit sebelum semai untuk sterilisasi alami."
+    ],
+    "catatan": "Benih mahal di awal, tapi menghemat berjuta-juta rupiah biaya pestisida di pertengahan tanam.",
+    "sumber": [
+      {
+        "judul": "GAP Cabai: Menekan Residu Pestisida",
+        "instansi": "Pustaka BPPSDMP Kementan",
+        "url": "https://pustaka.bppsdmp.pertanian.go.id",
+        "tahun": "2025",
+        "catatan": "Penggunaan benih bebas patogen."
+      }
+    ]
+  },
+  {
+    "id": "edu_sehat_02",
+    "kategori": "Sehat",
+    "kategori_edukasi": "Pemupukan",
+    "judul": "Kalium dan Fosfor: Nutrisi Imunitas Tanaman",
+    "ringkasan": "Jika Nitrogen (N) adalah bensin untuk memacu pertumbuhan, maka Kalium (K) dan Fosfor (P) adalah sistem imun dan kerangka baja bagi tanaman cabai.",
+    "image": {
+      "url": "https://mitrabertani.com/uploads/articles/Sampul_Artikel_Web_39.png",
+      "caption": "Pertumbuhan sistem perakaran cabai yang lebat",
+      "source": "MitraBertani.com, 2023"
+    },
+    "isi": [
+      {
+        "subjudul": "Peran Biologis",
+        "konten": "Fosfor merangsang pembakaran energi sel dan memperbanyak serabut akar. Akar yang lebat menjamin air dan nutrisi terserap sempurna. Kalium berperan langsung mengatur buka-tutup pori daun (stomata) saat kemarau dan mengeraskan dinding sel tubuh sehingga ulat dan jamur sulit menggigit."
+      },
+      {
+        "subjudul": "Waktu Aplikasi",
+        "konten": "Gunakan pupuk tinggi Fosfor (seperti SP-36 atau Ultradap) pada fase vegetatif (awal tanam). Gunakan pupuk tinggi Kalium (seperti KCL atau KNO3 Putih) saat bunga pertama mulai muncul agar bunga tidak rontok dan buah berbobot."
+      }
+    ],
+    "tips_lapangan": [
+      "Pupuk daun yang disemprotkan (foliar) lebih cepat mengatasi kekurangan kalium mendadak dibanding pupuk tabur.",
+      "Jangan pupuk nitrogen (Urea) jika daun sudah terlihat hijau gelap dan lebar."
+    ],
+    "catatan": "Tanaman sehat dengan nutrisi seimbang memiliki mekanisme pertahanan alami (Phytoalexin) melawan penyakit.",
+    "sumber": [
+      {
+        "judul": "Budi Daya Cabai (Panduan Teknis)",
+        "instansi": "Ditjen Hortikultura",
+        "url": "https://hortikultura.pertanian.go.id",
+        "tahun": "2024",
+        "catatan": "Pemupukan berimbang spesifik lokasi."
+      }
+    ]
+  },
+  {
+    "id": "edu_sehat_03",
+    "kategori": "Sehat",
+    "kategori_edukasi": "Lingkungan",
+    "judul": "Manajemen Air: Jangan Sampai Tergenang",
+    "ringkasan": "Cabai adalah tanaman yang rakus air, tetapi sangat benci kaki yang becek. Akar yang tergenang air lebih dari 24 jam akan kekurangan oksigen, mati, dan memicu busuk akar layu fusarium.",
+    "image": {
+      "url": "https://www.vavai.com/wp-content/uploads/2025/07/522469911_756253793447532_5133432185107424619_n.jpg",
+      "caption": "Pembuatan parit bedengan yang dalam",
+      "source": "BlogVavai.com, Juni 2026"
+    },
+    "isi": [
+      {
+        "subjudul": "Sistem Perakaran Cabai",
+        "konten": "Akar cabai mayoritas dangkal dan sangat bergantung pada rongga udara (porositas) tanah. Jika tanah padat dan tergenang, akar tidak bisa 'bernapas'. Tanaman akan layu di siang hari terik meskipun tanahnya basah, karena akar membusuk tidak bisa menyerap air."
+      },
+      {
+        "subjudul": "Desain Drainase Ideal",
+        "konten": "Buat tinggi bedengan minimal 30-40 cm di musim hujan. Pastikan parit antar bedengan dibuat miring mengarah ke saluran pembuangan utama. Setelah hujan lebat turun, air harus segera tuntas mengalir keluar lahan."
+      }
+    ],
+    "tips_lapangan": [
+      "Lakukan tes siram: Jika dalam 2 jam setelah hujan lebat masih ada genangan air di parit, berarti drainase perlu diperdalam.",
+      "Gunakan irigasi tetes (drip) di musim kemarau agar air terukur presisi tanpa membasahi permukaan atas tanah."
+    ],
+    "catatan": "Daun yang sehat ditopang oleh akar yang napasnya lancar.",
+    "sumber": [
+      {
+        "judul": "Pengelolaan Air dan Lahan Kering",
+        "instansi": "Kementerian Pertanian",
+        "url": "https://balittanah.litbang.pertanian.go.id",
+        "tahun": "2022",
+        "catatan": "Pentingnya drainase pada budidaya hortikultura musim hujan."
+      }
+    ]
+  },
+  {
+    "id": "edu_sehat_04",
+    "kategori": "Sehat",
+    "kategori_edukasi": "Lingkungan",
+    "judul": "Inspeksi Pagi: Kunci Deteksi Dini",
+    "ringkasan": "Petani sukses selalu 'mengobrol' dengan tanamannya. Berjalan memantau lahan di pagi hari (07.00-09.00) adalah waktu paling kritis untuk mendeteksi hama dan penyakit sejak hari pertama.",
+    "image": {
+      "url": "https://mitrabertani.com/uploads/articles/WEB_DESAIN_ARTIKEL_S3_OLAH_LAHAN_6.jpg",
+      "caption": "Petani menginspeksi bawah daun di pagi hari",
+      "source": "MitraBertani.com, Maret 2025"
+    },
+    "isi": [
+      {
+        "subjudul": "Mengapa Pagi Hari?",
+        "konten": "Pagi hari adalah saat serangga dan hama masih lambat bergerak karena udara dingin. Selain itu, embun pagi membuat bercak awal jamur (lesi) tampak lebih jelas, sedikit berair, dan tembus cahaya sebelum kering terjemur siang hari."
+      },
+      {
+        "subjudul": "Titik Fokus Pemantauan",
+        "konten": "Biasakan membalikkan daun muda di area pucuk untuk mengecek telur dan nimfa kutu kebul. Periksa batang bawah, apakah ada pangkal batang yang menghitam atau daun tua yang menguning. Lakukan ini 2-3 kali seminggu."
+      }
+    ],
+    "tips_lapangan": [
+      "Bawa plastik kecil saat berkeliling untuk langsung memetik tunas, daun, atau ulat yang bermasalah, lalu bakar di luar.",
+      "Ambil foto pada sudut dan pencahayaan yang sama jika ragu akan pertumbuhan tanaman."
+    ],
+    "catatan": "Mendeteksi 5 ekor hama hari ini mencegah penyemprotan puluhan liter pestisida minggu depan.",
+    "sumber": [
+      {
+        "judul": "Pengendalian Hama Terpadu (PHT)",
+        "instansi": "Direktorat Perlindungan Tanaman",
+        "url": "https://ditjenbun.pertanian.go.id",
+        "tahun": "2023",
+        "catatan": "Panduan PHT dan monitoring."
+      }
+    ]
+  },
+  {
+    "id": "edu_sehat_05",
+    "kategori": "Sehat",
+    "kategori_edukasi": "Pemupukan",
+    "judul": "Boster Akar: Agen Hayati Trichoderma",
+    "ringkasan": "Bakteri dan jamur tidak semuanya jahat. Ada 'jamur baik' seperti Trichoderma harzianum yang sengaja kita masukkan ke tanah untuk melindungi akar cabai dari patogen ganas.",
+    "image": {
+      "url": "https://www.kampustani.com/wp-content/uploads/2022/04/cara-memperbanyak-trichoderma-2.jpg",
+      "caption": "Perbanyakan Trichoderma pada media jagung/beras",
+      "source": "Kampustani.com, April 2022"
+    },
+    "isi": [
+      {
+        "subjudul": "Pasukan Pelindung Akar",
+        "konten": "Trichoderma bekerja dengan cara membungkus seluruh sistem perakaran cabai. Jamur ini bersimbiosis, bertugas merusak dan membunuh jamur jahat (seperti Fusarium penyebab layu dan busuk phytophthora) yang mencoba menyerang akar dari dalam tanah."
+      },
+      {
+        "subjudul": "Cara Aplikasi",
+        "konten": "Taburkan Trichoderma padat atau kocor Trichoderma cair bersama dengan pupuk kompos saat olah tanah (sebelum mulsa dipasang). Bisa juga dikocorkan rutin tiap bulan ke pangkal batang."
+      }
+    ],
+    "tips_lapangan": [
+      "Jangan mencampur agen hayati Trichoderma dengan fungisida/bakterisida kimia bersamaan karena akan mati.",
+      "Aplikasikan Trichoderma pada sore hari agar tidak mati terpapar sinar ultraviolet matahari terik."
+    ],
+    "catatan": "Tanah yang sehat dan hidup oleh mikroba adalah rahasia umur panjang tanaman cabai.",
+    "sumber": [
+      {
+        "judul": "Aplikasi Agen Hayati untuk Tanaman Cabai",
+        "instansi": "Jurnal Inovasi Penelitian Pertanian (JIPT)",
+        "url": "https://jurnal.untirta.ac.id/index.php/JIPT",
+        "tahun": "2024",
+        "catatan": "Pemanfaatan agen pengendali hayati."
+      }
+    ]
+  },
+  {
+    "id": "edu_sehat_06",
+    "kategori": "Sehat",
+    "kategori_edukasi": "Budidaya",
+    "judul": "Rotasi Tanaman: Putus Rantai Makanan Penyakit",
+    "ringkasan": "Menanam cabai terus-menerus di lahan yang sama setiap musim adalah cara tercepat merusak kesuburan tanah dan meledakkan populasi penyakit endemik.",
+    "image": {
+      "url": "https://media.licdn.com/dms/image/v2/D4E22AQHA3mV6WhNfKw/feedshare-shrink_1280/B4EZqG_y_HKgAs-/0/1763201463501?e=2147483647&v=beta&t=09ATIaNSAxiTFoElW9jVHABlbxLQSQi0vQB-_Rl-AZA",
+      "caption": "Siklus pergiliran tanaman di bedengan sawah",
+      "source": "LinkedIn, Ajmal Sohail Stanikzai Juni 2025"
+    },
+    "isi": [
+      {
+        "subjudul": "Ilmu Pergiliran Lahan",
+        "konten": "Setiap tanaman memiliki hama penyakit spesifik. Jamur bercak Cercospora bisa tidur nyenyak di dalam sisa akar cabai di tanah selama 1 tahun menunggu musim tanam berikutnya. Jika musim depannya ditanami cabai lagi, jamur langsung berpesta."
+      },
+      {
+        "subjudul": "Aturan Rotasi",
+        "konten": "Putus siklus hidup jamur dengan menanam tanaman beda famili (keluarga). Setelah cabai (Solanaceae), tanamlah jagung (Graminae) atau kacang hijau (Leguminosae). Kacang-kacangan juga bisa menyuburkan tanah dengan mengikat nitrogen bebas dari udara."
+      }
+    ],
+    "tips_lapangan": [
+      "Jangan merotasi cabai dengan tomat, terong, atau kentang. Mereka semua berasal dari satu keluarga besar dan punya hama penyakit yang sama.",
+      "Biarkan lahan terpanggang matahari (bera) selama 2-3 minggu sebelum ditanam ulang."
+    ],
+    "catatan": "Tanah butuh istirahat. Mengganti jenis tanaman akan mengembalikan struktur biologi tanah.",
+    "sumber": [
+      {
+        "judul": "Pengelolaan Lahan Berkelanjutan",
+        "instansi": "BPTP Jambi",
+        "url": "https://repository.pertanian.go.id",
+        "tahun": "2014",
+        "catatan": "Praktik rotasi tanaman untuk memutus siklus hama."
+      }
+    ]
+  }
+]

@@ -1,0 +1,53 @@
+# Environment
+.env
+.env.local
+.env.production
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Database
+*.db
+*.sqlite3
+
+# Uploads (user data, jangan di-commit)
+uploads/
+
+# Log files
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ML model files (terlalu besar untuk git)
+*.onnx
+*.pt
+*.pth
+*.h5
+*.tflite
+
+# Alembic (opsional: uncomment jika tidak ingin track migrations)
+# alembic/versions/

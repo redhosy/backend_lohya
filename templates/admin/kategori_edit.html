@@ -1,0 +1,94 @@
+{% extends "sqladmin/layout.html" %}
+{% from 'sqladmin/_macros.html' import render_field %}
+{% block content %}
+<div class="col-12">
+  <div class="card">
+    <div class="card-header">
+      <h3 class="card-title">Edit {{ model_view.name }}</h3>
+    </div>
+    <div class="card-body border-bottom py-3">
+      <form action="{{ model_view._build_url_for('admin:edit', request, obj) }}{% if request.url.query %}?{{ request.url.query }}{% endif %}" method="POST"
+        enctype="multipart/form-data">
+        <div class="row">
+          {% if error %}
+          <div class="alert alert-danger" role="alert">{{ error }}</div>
+          {% endif %}
+        </div>
+        <fieldset class="form-fieldset">
+          {% if form.hidden_tag is defined %}
+          {{ form.hidden_tag() }}
+          {% else %}
+          {% for f in form if f.widget.input_type == 'hidden' %}
+          {{ f }}
+          {% endfor %}
+          {% endif %}
+
+          {% for f in form if f.widget.input_type != 'hidden' %}
+            {% if f.name == 'agen_penyebab_rel' %}
+              <div class="mb-3 form-group row">
+                <label class="form-label col-sm-2 col-form-label">Agen Penyebab</label>
+                <div class="col-sm-10">
+                  <select name="agen_penyebab_rel" multiple disabled class="form-control">
+                    {% for ag in obj.agen_penyebab_rel %}
+                    <option value="{{ ag.id_agen }}" selected>{{ ag.nama_ilmiah }} ({{ ag.jenis }})</option>
+                    {% endfor %}
+                  </select>
+                  <small class="text-muted">Field ini tidak dapat diubah</small>
+                </div>
+              </div>
+            {% else %}
+              {{ render_field(f, ajax_lookup_url=url_for('admin:ajax_lookup', identity=model_view.identity)) }}
+            {% endif %}
+          {% endfor %}
+        </fieldset>
+        <div class="row">
+          <div class="col-md-2">
+            <a href="{{ url_for('admin:list', identity=model_view.identity) }}{% if request.url.query %}?{{ request.url.query }}{% endif %}"
+              class="btn">
+              Cancel
+            </a>
+          </div>
+          <div class="col-md-6">
+            <div class="btn-group flex-wrap">
+              <input type="submit" name="save" value="Save" class="btn">
+              <input type="submit" name="save" value="Save and continue editing" class="btn">
+              {% if model_view.can_create %}
+              {% if model_view.save_as %}
+              <input type="submit" name="save" value="Save as new" class="btn">
+              {% else %}
+              <input type="submit" name="save" value="Save and add another" class="btn">
+              {% endif %}
+              {% endif %}
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+{% endblock %}
+
+{% block head_css %}
+{{ super() }}
+{% if form is defined %}
+{% set form_media = collect_form_media(form) %}
+{% for url in form_media.css %}
+<link rel="stylesheet" href="{{ url }}">
+{% endfor %}
+{% endif %}
+{% endblock %}
+
+{% block tail_js %}
+{{ super() }}
+{% if form is defined %}
+{% set form_media = collect_form_media(form) %}
+{% for url in form_media.js %}
+<script src="{{ url }}"></script>
+{% endfor %}
+{% for field in form if field.editor_init_template is defined %}
+{% with field = field %}
+{% include field.editor_init_template %}
+{% endwith %}
+{% endfor %}
+{% endif %}
+{% endblock %}

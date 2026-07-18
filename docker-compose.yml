@@ -1,0 +1,36 @@
+services:
+  db:
+    image: postgres:14-alpine
+    container_name: pantau_cabai_db
+    env_file: .env
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: pantau_cabai
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  api:
+    build: .
+    container_name: pantau_cabai_api
+    env_file: .env
+    environment:
+      DATABASE_URL: postgresql+psycopg2://postgres:postgres@db:5432/pantau_cabai
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./uploads:/app/uploads
+    depends_on:
+      db:
+        condition: service_healthy
+    restart: unless-stopped
+
+volumes:
+  postgres_data:

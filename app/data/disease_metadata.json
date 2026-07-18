@@ -1,0 +1,161 @@
+[
+  {
+    "id": 1,
+    "kode_kelas": "Bercak",
+    "kategori": "Daun Bercak",
+    "nama_ilmiah": [
+      {
+        "nama": "Cercospora capsici",
+        "jenis": "Jamur"
+      },
+      {
+        "nama": "Alternaria solani",
+        "jenis": "Jamur"
+      }
+    ],
+    "deskripsi": "Daun bercak pada tanaman cabai merupakan kondisi yang ditandai dengan munculnya lesi atau bercak kecil berbentuk bulat dan kering pada permukaan daun dengan diameter sekitar 0,5 cm. Pusat bercak berwarna pucat hingga putih, sementara bagian tepinya berwarna lebih tua (coklat kehitaman). Pada stadium lanjut, bercak yang sudah tua dapat membentuk lubang, daun menguning, dan akhirnya gugur sebelum waktunya. Jamur Cercospora capsici menyebar melalui percikan air hujan, angin, kontak daun ke daun, serta melalui peralatan dan pekerja kebun. Kondisi optimal perkembangan jamur ini adalah suhu sekitar 23°C dengan kelembaban relatif 77–85%. Serangan berat dapat menyebabkan kehilangan hasil produksi hingga 30–40%. Selain daun, jamur ini juga dapat menyerang batang dan tangkai buah, serta sangat umum terjadi pada musim hujan dengan sirkulasi udara yang buruk.",
+    "perawatan": [
+      "Buang dan musnahkan daun yang menunjukkan gejala bercak berat segera setelah terdeteksi untuk mencegah penyebaran spora ke tanaman sekitar.",
+      "Lakukan sanitasi kebun secara menyeluruh dengan membersihkan sisa-sisa tanaman terinfeksi, karena jamur Cercospora capsici dapat bertahan pada sisa tanaman hingga satu musim tanam.",
+      "Semprotkan fungisida berbahan aktif tembaga hidroksida, klorotalonil, atau mancozeb segera saat bercak pertama kali muncul. Perawatan harus dimulai pada stadium awal agar efektif.",
+      "Hindari pembasahan daun secara berlebihan saat menyiram, karena infeksi lebih mudah terjadi pada kondisi daun yang basah berkepanjangan.",
+      "Gunakan mulsa plastik untuk mengurangi percikan tanah yang mengandung spora jamur ke permukaan daun."
+    ],
+    "pencegahan": [
+      "Jaga jarak tanam yang cukup sesuai rekomendasi (minimal 50–60 cm) agar sirkulasi udara di antara tanaman tetap baik dan kelembaban tidak berlebih.",
+      "Pastikan sistem drainase lahan berfungsi baik untuk menghindari genangan air yang mendukung perkembangan jamur.",
+      "Lakukan pemantauan rutin minimal dua kali seminggu, terutama pada musim hujan, dengan memeriksa bagian bawah daun sebagai lokasi infeksi awal.",
+      "Hindari penanaman kembali (monokultur) di lahan bekas tanaman terinfeksi tanpa rotasi tanaman terlebih dahulu, karena jamur dapat bertahan di tanah dan sisa tanaman.",
+      "Gunakan benih bersertifikat yang bebas patogen, karena jamur C. capsici dapat terbawa melalui benih yang terinfeksi.",
+      "Terapkan pengelolaan tanaman terpadu (PTT) yang menggabungkan pengendalian biologi, kultur teknis, dan penggunaan pestisida secara bijaksana."
+    ],
+    "edukasi_id": "edu_daun_bercak",
+    "referensi": [
+      {
+        "judul": "Penyakit Bercak Daun Serkospora (Cercospora capsici) pada Tanaman Cabai",
+        "sumber": "Dinas Pertanian Kabupaten Buleleng",
+        "url": "https://distan.bulelengkab.go.id/informasi/detail/artikel/98_penyakit-bercak-daun-serkospora-cercospora-capsici-pada-tanaman-cabai"
+      },
+      {
+        "judul": "Pengelolaan Tanaman Terpadu pada Cabai Merah terhadap Perkembangan Penyakit Bercak Daun (Cercospora capsici)",
+        "sumber": "Prosiding Seminar Nasional Perlindungan Tanaman, Universitas Sriwijaya",
+        "url": "https://semnas.bpfp-unib.com/index.php/perlintan/article/view/7"
+      },
+      {
+        "judul": "Karakterisasi Morfologi dan Anatomi Daun Cabai Rawit yang Terinfeksi Cercospora capsici",
+        "sumber": "Jurnal HPT (Hama Penyakit Tumbuhan), Universitas Brawijaya",
+        "url": "https://jurnalhpt.ub.ac.id/index.php/jhpt/article/view/416"
+      },
+      {
+        "judul": "Identifikasi Penyakit yang Disebabkan oleh Jamur pada Tanaman Cabai",
+        "sumber": "Neliti – Media Publikasi Penelitian Indonesia",
+        "url": "https://media.neliti.com/media/publications/189749-ID-identifikasi-penyakit-yang-disebabkan-ol.pdf"
+      },
+      {
+        "judul": "Hama dan Penyakit pada Tanaman Cabai serta Pengendaliannya",
+        "sumber": "Balai Pengkajian Teknologi Pertanian (BPTP) Jambi – Kementerian Pertanian RI",
+        "url": "https://repository.pertanian.go.id/server/api/core/bitstreams/057dc36a-0ef7-40ce-a6ff-5bb06605cb70/content"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "kode_kelas": "Keriting",
+    "kategori": "Daun Keriting",
+    "nama_ilmiah": [
+      {
+        "nama": "Thrips parvispinus",
+        "jenis": "Hama"
+      },
+      {
+        "nama": "Bemisia tabaci",
+        "jenis": "Hama (Vektor Virus)"
+      },
+      {
+        "nama": "Begomovirus",
+        "jenis": "Virus"
+      }
+    ],
+    "deskripsi": "Daun keriting pada tanaman cabai merupakan kondisi yang disebabkan oleh dua mekanisme berbeda yang sering terjadi bersamaan. Pertama, serangan hama Thrips parvispinus yang menyebabkan daun tampak bercak keperakan, berubah warna menjadi coklat tembaga, mengeriting atau keriput, dan pada serangan berat menyebabkan pucuk menggulung ke dalam disertai benjolan seperti tumor. Kedua, infeksi virus dari kelompok Begomovirus (famili Geminiviridae) yang ditularkan secara persisten oleh kutu kebul (Bemisia tabaci). Gejala infeksi Begomovirus meliputi daun mengeriting pada sisi atas, tampak berkerut, pengurangan luas daun, melepuh di area interveinal, pemendekan tangkai daun, serta pertumbuhan tanaman yang terhambat (stunting). Pada stadium lanjut, kuncup bunga mengalami absisi dan serbuk sari tidak normal sehingga menghasilkan buah yang berkualitas buruk. Serangan Begomovirus dapat berkisar 70–100% pada tanaman cabai dan Virus Mosaik (CMV) dapat menyebabkan hingga 60% kerusakan tanaman.",
+    "perawatan": [
+      "Periksa bagian bawah daun secara rutin untuk mendeteksi keberadaan Thrips parvispinus dan Bemisia tabaci sejak dini, karena kedua hama ini biasanya berkoloni di permukaan bawah daun muda.",
+      "Kendalikan populasi hama vektor (thrips dan kutu kebul) menggunakan insektisida berbahan aktif imidakloprid, abamektin, atau spinosad sesuai anjuran dosis dan rotasi untuk menghindari resistensi.",
+      "Untuk serangan Begomovirus, tidak ada pengendalian kuratif yang efektif setelah tanaman terinfeksi. Fokuskan pada pengendalian vektor dan segera cabut serta musnahkan tanaman yang terinfeksi parah agar tidak menjadi sumber inokulum.",
+      "Pasang perangkap kuning lengket (yellow sticky trap) dengan kepadatan 40 perangkap per hektar untuk memonitor dan menekan populasi Bemisia tabaci dan thrips secara fisik.",
+      "Lakukan penyemprotan insektisida nabati seperti ekstrak nimba (neem) secara berkala sebagai alternatif pengendalian ramah lingkungan."
+    ],
+    "pencegahan": [
+      "Gunakan benih bersertifikat dari varietas yang memiliki toleransi atau ketahanan terhadap virus kuning (Begomovirus), karena pencegahan jauh lebih efektif dibanding pengendalian setelah infeksi.",
+      "Kelola persemaian dalam kondisi terlindung menggunakan paranet atau kain kasa rapat (25 mesh) untuk mencegah masuknya vektor hama sejak fase bibit yang paling rentan.",
+      "Terapkan pola tanam tumpang sari dengan tanaman jagung atau tanaman tinggi lainnya sebagai penghalang fisik migrasi kutu kebul dari lahan sekitar.",
+      "Bersihkan gulma di sekitar pertanaman secara rutin, karena gulma merupakan inang alternatif bagi Bemisia tabaci dan Begomovirus yang dapat menjadi sumber infeksi bagi tanaman cabai.",
+      "Hindari penanaman cabai berdekatan dengan tanaman inang virus lainnya seperti tomat, tembakau, buncis, dan kacang panjang yang dapat menjadi reservoir Begomovirus.",
+      "Lakukan pemantauan populasi vektor secara berkala menggunakan perangkap kuning dan ambil tindakan pengendalian segera jika populasi melampaui ambang ekonomi."
+    ],
+    "edukasi_id": "edu_daun_keriting",
+    "referensi": [
+      {
+        "judul": "Hama dan Penyakit pada Tanaman Cabai serta Pengendaliannya",
+        "sumber": "Balai Pengkajian Teknologi Pertanian (BPTP) Jambi – Kementerian Pertanian RI",
+        "url": "https://repository.pertanian.go.id/server/api/core/bitstreams/057dc36a-0ef7-40ce-a6ff-5bb06605cb70/content"
+      },
+      {
+        "judul": "Mengenal Penyakit Keriting Kuning pada Cabai dan Cara Pengendaliannya",
+        "sumber": "MAPENA – Lembaga Penyuluhan Pertanian",
+        "url": "https://mapena.ac.id/post/mengenal-penyakit-keriting-kuning-pada-cabai-dan-cara-pengendaliannya"
+      },
+      {
+        "judul": "Identifikasi Virus Penyebab Penyakit Kuning Keriting pada Cabai",
+        "sumber": "Jurnal Agrikultura, Universitas Padjadjaran",
+        "url": "https://jurnal.unpad.ac.id/agrikultura/article/viewFile/42833/21773"
+      },
+      {
+        "judul": "Daun Keriting (Leaf Curl) – Klasifikasi Penyakit Cabai",
+        "sumber": "Jurnal JATI – Jurnal Mahasiswa Teknik Informatika, Institut Teknologi Nasional Malang",
+        "url": "https://ejournal.itn.ac.id/jati/article/download/17710/9295"
+      },
+      {
+        "judul": "Chilli Leaf Curl Virus – Plant Disease Library",
+        "sumber": "Plantix – Platform Pertanian Digital",
+        "url": "https://plantix.net/en/library/plant-diseases/200052/chilli-leaf-curl-virus/"
+      },
+      {
+        "judul": "Serangan Hama dan Penyakit pada Pertanaman Cabai",
+        "sumber": "Jurnal Pertanian Kepulauan, Vol.6 No.2, Universitas Pattimura",
+        "url": "https://ojs3.unpatti.ac.id/index.php/jpk/article/download/7854/5600/"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "kode_kelas": "Sehat",
+    "kategori": "Daun Sehat",
+    "nama_ilmiah": [],
+    "deskripsi": "Daun sehat pada tanaman cabai ditandai dengan warna hijau segar dan merata, permukaan daun yang rata dan tidak menunjukkan gejala bercak, kerutan, atau perubahan bentuk yang tidak normal. Tanaman dengan daun sehat memiliki pertumbuhan vegetatif yang optimal, di mana daun muda tumbuh dengan ukuran normal dan warna yang seragam. Kondisi daun sehat merupakan indikator bahwa tanaman mendapatkan nutrisi yang cukup, sistem perakaran yang baik, dan terhindar dari serangan hama maupun patogen. Pemantauan berkala terhadap kondisi daun sangat penting untuk mendeteksi gejala awal gangguan sedini mungkin sebelum berkembang menjadi serangan yang lebih parah dan menyebar ke tanaman lain.",
+    "perawatan": [
+      "Lanjutkan jadwal pemupukan berimbang sesuai fase pertumbuhan tanaman: pupuk nitrogen (N) untuk pertumbuhan vegetatif, fosfor (P) untuk perkembangan akar, dan kalium (K) untuk ketahanan tanaman terhadap stres dan penyakit.",
+      "Pastikan ketersediaan air yang cukup dan merata dengan sistem irigasi yang baik. Hindari kondisi kekeringan maupun genangan air yang dapat melemahkan ketahanan tanaman.",
+      "Lakukan penyiangan gulma secara rutin di sekitar tanaman untuk mengurangi persaingan nutrisi dan mencegah gulma menjadi inang alternatif hama dan penyakit.",
+      "Lakukan pemangkasan tunas air (wiwilan) untuk meningkatkan sirkulasi udara dan cahaya matahari ke seluruh bagian tanaman, yang mendukung pertumbuhan optimal."
+    ],
+    "pencegahan": [
+      "Lakukan pemantauan visual berkala minimal dua kali seminggu pada seluruh bagian tanaman, terutama bagian bawah daun, pucuk, dan pangkal batang untuk mendeteksi gejala awal serangan hama atau penyakit.",
+      "Catat dan dokumentasikan kondisi tanaman secara periodik sebagai data referensi untuk mendeteksi perubahan kondisi secara dini.",
+      "Terapkan prinsip Pengendalian Hama Terpadu (PHT) secara proaktif meskipun tanaman tampak sehat, termasuk penggunaan agen hayati dan perangkap hama sebagai langkah pencegahan.",
+      "Pastikan sanitasi lahan terjaga dengan baik — bersihkan sisa tanaman, alat pertanian, dan kendalikan akses hewan ke area pertanaman untuk meminimalkan risiko introduksi patogen baru."
+    ],
+    "edukasi_id": "edu_daun_sehat",
+    "referensi": [
+      {
+        "judul": "Hama dan Penyakit pada Tanaman Cabai serta Pengendaliannya",
+        "sumber": "Balai Pengkajian Teknologi Pertanian (BPTP) Jambi – Kementerian Pertanian RI",
+        "url": "https://repository.pertanian.go.id/server/api/core/bitstreams/057dc36a-0ef7-40ce-a6ff-5bb06605cb70/content"
+      },
+      {
+        "judul": "Pedoman Budidaya Cabai Merah yang Baik (Good Agricultural Practices)",
+        "sumber": "Direktorat Jenderal Hortikultura – Kementerian Pertanian RI",
+        "url": "https://hortikultura.pertanian.go.id"
+      }
+    ]
+  }
+]
