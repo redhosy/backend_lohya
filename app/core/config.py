@@ -3,8 +3,8 @@ from functools import lru_cache
 
 
 class Settings(BaseSettings):
-    DATABASE_URL: str = "postgresql://postgres:12345678@localhost:5432/pantau_cabai"
-    SECRET_KEY: str = "super-duper-secret-key-pake-banget"
+    DATABASE_URL: str = "postgresql://user:password@localhost:5432/nama_database"
+    SECRET_KEY: str = "change-me-to-random-secret-key"
     ALGORITHM: str = "HS256"
     ACCESS_TOKEN_EXPIRE_MINUTES: int = 60
     REFRESH_TOKEN_EXPIRE_DAYS: int = 7
@@ -17,7 +17,7 @@ class Settings(BaseSettings):
     GOOGLE_CLIENT_ID: str = ""
 
     ADMIN_USERNAME: str = "admin"
-    ADMIN_PASSWORD: str = "admin123"
+    ADMIN_PASSWORD: str = "change-me"
 
     UPLOAD_DIR: str = "uploads"
     MAX_FILE_SIZE: int = 5 * 1024 * 1024
