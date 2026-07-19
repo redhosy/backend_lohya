@@ -3,21 +3,23 @@ from functools import lru_cache
 
 
 class Settings(BaseSettings):
-    DATABASE_URL: str = "postgresql://user:password@localhost:5432/nama_database"
-    SECRET_KEY: str = "change-me-to-random-secret-key"
+    DATABASE_URL: str = "postgresql://postgres:12345678@db:5432/pantau_cabai"
+    SYNC_DATABASE_URL: str = "postgresql://postgres:12345678@db:5432/pantau_cabai"
+    SECRET_KEY: str = "super-duper-secret-key-pake-banget"
     ALGORITHM: str = "HS256"
     ACCESS_TOKEN_EXPIRE_MINUTES: int = 60
     REFRESH_TOKEN_EXPIRE_DAYS: int = 7
+    POSTGRES_PASSWORD: str = "12345678"
 
-    MAIL_USERNAME: str = ""
-    MAIL_PASSWORD: str = ""
+    MAIL_USERNAME: str = "PantauCabai@gmail.com"
+    MAIL_PASSWORD: str = "tsqz hnep ecvf elsq"
     MAIL_SERVER: str = "smtp.gmail.com"
     MAIL_PORT: int = 587
 
-    GOOGLE_CLIENT_ID: str = ""
+    GOOGLE_CLIENT_ID: str = "698405373567-i1e1mlobda3pee6brmkjlnlce51n957r.apps.googleusercontent.com"
 
     ADMIN_USERNAME: str = "admin"
-    ADMIN_PASSWORD: str = "change-me"
+    ADMIN_PASSWORD: str = "admin123"
     
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
