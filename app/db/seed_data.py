@@ -206,37 +206,6 @@ def seed_edukasi_tani(db: Session):
     db.commit()
     print("Seed edukasi_tani selesai.")
 
-
-# ============================================================
-# SEED USER ADMIN (BARU)
-# ============================================================
-
-def seed_admin_user(db: Session):
-    # Cek apakah admin sudah ada
-    admin_exists = db.query(User).filter_by(email="admin@pantaucabai.com").first()
-    
-    if admin_exists:
-        print("  [SKIP] Admin user already exists")
-        return
-    
-    # Buat user admin - menggunakan email dan password yang di-hash
-    # Password: admin123
-    admin_user = User(
-        email="admin@pantaucabai.com",
-        password_hash="admin123",
-        nama="Admin",
-        auth_provider="local",
-        is_verified=True
-    )
-    
-    db.add(admin_user)
-    db.commit()
-    print(f"  [INSERT] Admin user created:")
-    print(f"    - Email: admin@pantaucabai.com")
-    print(f"    - Password: admin123")
-    print(f"    - Nama: Admin")
-
-
 # ============================================================
 # JALANKAN SEMUA SEED
 # ============================================================
