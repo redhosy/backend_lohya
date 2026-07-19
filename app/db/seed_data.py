@@ -229,9 +229,6 @@ def run_seed():
         seed_edukasi_tani(db)
         print()
         
-        seed_admin_user(db)
-        print()
-        
         print("-" * 50)
         print("✅ Semua seed selesai!")
     except Exception as e:
