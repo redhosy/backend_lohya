@@ -28,10 +28,15 @@ class AdminAuth(AuthenticationBackend):
         form = await request.form()
         username = form.get("username")
         password = form.get("password")
+        
+        print(f"Login attempt - Username: {username}, Password: {password}")
+        print(f"Expected - Username: {settings.ADMIN_USERNAME}, Password: {settings.ADMIN_PASSWORD}")
 
         if username == settings.ADMIN_USERNAME and password == settings.ADMIN_PASSWORD:
             request.session.update({"admin_user": username})
+            print("Login successful")
             return True
+        print("Login failed")
         return False
 
     async def logout(self, request: Request) -> bool:

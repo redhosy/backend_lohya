@@ -4,7 +4,6 @@ from functools import lru_cache
 
 class Settings(BaseSettings):
     DATABASE_URL: str = "postgresql://user:password@localhost:5432/nama_database"
-    postgres_password: str = ""
     SECRET_KEY: str = "change-me-to-random-secret-key"
     ALGORITHM: str = "HS256"
     ACCESS_TOKEN_EXPIRE_MINUTES: int = 60
@@ -19,6 +18,10 @@ class Settings(BaseSettings):
 
     ADMIN_USERNAME: str = "admin"
     ADMIN_PASSWORD: str = "change-me"
+    
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
+        print(f"Loaded config - ADMIN_USERNAME: {self.ADMIN_USERNAME}, ADMIN_PASSWORD: {self.ADMIN_PASSWORD}")
 
     UPLOAD_DIR: str = "uploads"
     MAX_FILE_SIZE: int = 5 * 1024 * 1024
@@ -35,7 +38,6 @@ class Settings(BaseSettings):
 
     class Config:
         env_file = ".env"
-        extra = 'allow'
 
 
 settings = Settings()
