@@ -10,7 +10,7 @@ from app.models.edukasi_tani_model import EdukasiTani
 from app.models.kategori_edukasi_model import KategoriEdukasi
 from app.models.koleksi_user_model import KoleksiUser
 
-DIREKTORI_DATA = Path(__file__).parent.parent / "data"
+DIREKTORI_DATA = Path(__file__).parent
 
 
 def muat_json(nama_file: str) -> list:
