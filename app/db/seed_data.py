@@ -10,7 +10,6 @@ from app.models.edukasi_tani_model import EdukasiTani
 from app.models.kategori_edukasi_model import KategoriEdukasi
 from app.models.koleksi_user_model import KoleksiUser
 
-
 DIREKTORI_DATA = Path(__file__).parent.parent / "data"
 
 
@@ -127,7 +126,7 @@ def seed_kategori_edukasi(db: Session):
 
 
 # ============================================================
-# SEED EDUKASI TANI
+# SEED EDUKASI TANI (DARI SEED_EDU.PY)
 # ============================================================
 
 def bangun_konten(item: dict) -> str:
@@ -209,6 +208,36 @@ def seed_edukasi_tani(db: Session):
 
 
 # ============================================================
+# SEED USER ADMIN (BARU)
+# ============================================================
+
+def seed_admin_user(db: Session):
+    # Cek apakah admin sudah ada
+    admin_exists = db.query(User).filter_by(email="admin@pantaucabai.com").first()
+    
+    if admin_exists:
+        print("  [SKIP] Admin user already exists")
+        return
+    
+    # Buat user admin - menggunakan email dan password yang di-hash
+    # Password: admin123
+    admin_user = User(
+        email="admin@pantaucabai.com",
+        password_hash="admin123",
+        nama="Admin",
+        auth_provider="local",
+        is_verified=True
+    )
+    
+    db.add(admin_user)
+    db.commit()
+    print(f"  [INSERT] Admin user created:")
+    print(f"    - Email: admin@pantaucabai.com")
+    print(f"    - Password: admin123")
+    print(f"    - Nama: Admin")
+
+
+# ============================================================
 # JALANKAN SEMUA SEED
 # ============================================================
 
@@ -216,12 +245,30 @@ def run_seed():
     Base.metadata.create_all(bind=engine)
     db = Session(bind=engine)
     try:
-        print("Mulai seed data...")
+        print("🚀 Mulai seed data...")
+        print("-" * 50)
+        
         seed_kategori_klasifikasi(db)
+        print()
+        
         seed_agen_penyebab(db)
+        print()
+        
         seed_kategori_edukasi(db)
+        print()
+        
         seed_edukasi_tani(db)
-        print("Semua seed selesai!")
+        print()
+        
+        seed_admin_user(db)
+        print()
+        
+        print("-" * 50)
+        print("✅ Semua seed selesai!")
+    except Exception as e:
+        db.rollback()
+        print(f"❌ Error seeding data: {e}")
+        raise e
     finally:
         db.close()
 

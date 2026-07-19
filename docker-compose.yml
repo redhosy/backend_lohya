@@ -4,7 +4,7 @@ services:
     container_name: pantau_cabai_db
     environment:
       POSTGRES_USER: postgres
-      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-12345678}
+      POSTGRES_PASSWORD: 12345678
       POSTGRES_DB: pantau_cabai
     ports:
       - "5432:5432"
@@ -20,13 +20,11 @@ services:
     build: .
     container_name: pantau_cabai_api
     environment:
-      DATABASE_URL: ${DATABASE_URL}
-      SECRET_KEY: ${SECRET_KEY}
+      DATABASE_URL: "postgresql://postgres:12345678@db:5432/pantau_cabai"
+      SECRET_KEY: super-secret-key-change-in-production
       ALGORITHM: HS256
       ACCESS_TOKEN_EXPIRE_MINUTES: 60
       REFRESH_TOKEN_EXPIRE_DAYS: 7
-      ADMIN_USERNAME: admin
-      ADMIN_PASSWORD: ${ADMIN_PASSWORD}
       MAIL_USERNAME: ${MAIL_USERNAME}
       MAIL_PASSWORD: ${MAIL_PASSWORD}
       GOOGLE_CLIENT_ID: ${GOOGLE_CLIENT_ID}
@@ -44,6 +42,7 @@ services:
       db:
         condition: service_healthy
     restart: unless-stopped
+    command: sh -c "alembic upgrade head && python -m app.db.seed_data && python -m uvicorn app.main:app --host 0.0.0.0 --port 8000"
 
 volumes:
   postgres_data:
