@@ -4,6 +4,7 @@ from functools import lru_cache
 
 class Settings(BaseSettings):
     DATABASE_URL: str = "postgresql://user:password@localhost:5432/nama_database"
+    postgres_password: str = ""
     SECRET_KEY: str = "change-me-to-random-secret-key"
     ALGORITHM: str = "HS256"
     ACCESS_TOKEN_EXPIRE_MINUTES: int = 60
@@ -34,6 +35,7 @@ class Settings(BaseSettings):
 
     class Config:
         env_file = ".env"
+        extra = 'allow'
 
 
 settings = Settings()
