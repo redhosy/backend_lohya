@@ -4,25 +4,22 @@ from sqlalchemy.orm import Session
 from app.db.database import engine, Base
 from app.models.kategori_klasifikasi_model import KategoriKlasifikasi
 from app.models.agen_penyebab_model import AgenPenyebab
-from app.models.riwayat_klasifikasi_model import RiwayatKlasifikasi
-from app.models.user_model import User
 from app.models.edukasi_tani_model import EdukasiTani
 from app.models.kategori_edukasi_model import KategoriEdukasi
-from app.models.koleksi_user_model import KoleksiUser
 
-DIREKTORI_DATA = Path(__file__).parent
-
+# PERBAIKAN 1: Path yang robust untuk Docker
+DIREKTORI_DATA = Path(__file__).parent / "seeds"
 
 def muat_json(nama_file: str) -> list:
     jalur = DIREKTORI_DATA / nama_file
+    if not jalur.exists():
+        raise FileNotFoundError(f"File JSON tidak ditemukan di: {jalur}")
     with open(jalur, "r", encoding="utf-8") as f:
         return json.load(f)
-
 
 # ============================================================
 # SEED KATEGORI KLASIFIKASI
 # ============================================================
-
 def seed_kategori_klasifikasi(db: Session):
     daftar_penyakit = muat_json("disease_metadata.json")
 
@@ -33,12 +30,12 @@ def seed_kategori_klasifikasi(db: Session):
         ).first()
 
         if sudah_ada:
+            # Update data jika ada perubahan di JSON
             sudah_ada.kategori = penyakit["kategori"]
             sudah_ada.deskripsi = penyakit.get("deskripsi", "")
             sudah_ada.perawatan = penyakit.get("perawatan", [])
             sudah_ada.pencegahan = penyakit.get("pencegahan", [])
             sudah_ada.referensi = penyakit.get("referensi", [])
-            sudah_ada.is_default = True
             print(f"  [UPDATE] Kategori: {kode_kelas}")
         else:
             kategori_baru = KategoriKlasifikasi(
@@ -54,13 +51,10 @@ def seed_kategori_klasifikasi(db: Session):
             print(f"  [INSERT] Kategori: {kode_kelas}")
 
     db.commit()
-    print("Seed kategori_klasifikasi selesai.")
-
 
 # ============================================================
-# SEED AGEN PENYEBAB
+# SEED AGEN PENYEBAB (DIPERBAIKI)
 # ============================================================
-
 def seed_agen_penyebab(db: Session):
     daftar_penyakit = muat_json("disease_metadata.json")
 
@@ -74,41 +68,29 @@ def seed_agen_penyebab(db: Session):
             print(f"  [SKIP] Kategori {kode_kelas} tidak ditemukan")
             continue
 
-        sudah_ada = db.query(AgenPenyebab).filter(
-            AgenPenyebab.id_kategori == kategori.id_kategori
-        ).count()
-
-        if sudah_ada > 0:
-            print(f"  [SKIP] {kode_kelas} sudah punya {sudah_ada} agen penyebab")
-            continue
-
         daftar_nama = penyakit.get("nama_ilmiah", [])
         for item in daftar_nama:
-            agen_baru = AgenPenyebab(
-                id_kategori=kategori.id_kategori,
-                nama_ilmiah=item["nama"],
-                jenis=item["jenis"],
-            )
-            db.add(agen_baru)
+            # PERBAIKAN 2: Cek berdasarkan nama_ilmiah, bukan hitung jumlah kategori
+            sudah_ada = db.query(AgenPenyebab).filter(
+                AgenPenyebab.id_kategori == kategori.id_kategori,
+                AgenPenyebab.nama_ilmiah == item["nama"]
+            ).first()
 
-        print(f"  [INSERT] {len(daftar_nama)} agen penyebab untuk {kode_kelas}")
+            if not sudah_ada:
+                agen_baru = AgenPenyebab(
+                    id_kategori=kategori.id_kategori,
+                    nama_ilmiah=item["nama"],
+                    jenis=item["jenis"],
+                )
+                db.add(agen_baru)
+                print(f"  [INSERT] Agen: {item['nama']}")
 
     db.commit()
-    print("Seed agen_penyebab selesai.")
-
 
 # ============================================================
 # SEED KATEGORI EDUKASI
 # ============================================================
-
-DAFTAR_KATEGORI_EDUKASI = [
-    "Penyakit",
-    "Budidaya",
-    "Pemupukan",
-    "Hama",
-    "Lingkungan",
-]
-
+DAFTAR_KATEGORI_EDUKASI = ["Penyakit", "Budidaya", "Pemupukan", "Hama", "Lingkungan"]
 
 def seed_kategori_edukasi(db: Session):
     for nama in DAFTAR_KATEGORI_EDUKASI:
@@ -117,18 +99,13 @@ def seed_kategori_edukasi(db: Session):
         ).first()
 
         if not sudah_ada:
-            kategori_baru = KategoriEdukasi(nama_kategori_edu=nama)
-            db.add(kategori_baru)
+            db.add(KategoriEdukasi(nama_kategori_edu=nama))
             print(f"  [INSERT] Kategori edukasi: {nama}")
-
     db.commit()
-    print("Seed kategori_edukasi selesai.")
-
 
 # ============================================================
-# SEED EDUKASI TANI (DARI SEED_EDU.PY)
+# SEED EDUKASI TANI
 # ============================================================
-
 def bangun_konten(item: dict) -> str:
     bagian = []
     for isi in item.get("isi", []):
@@ -151,49 +128,35 @@ def bangun_konten(item: dict) -> str:
 
     return "\n\n".join(bagian)
 
-
-def cari_id_kategori_klasifikasi(db: Session, kode_kelas: str) -> int:
-    kategori = db.query(KategoriKlasifikasi).filter(
-        KategoriKlasifikasi.kode_kelas == kode_kelas
-    ).first()
-    return kategori.id_kategori if kategori else None
-
-
-def cari_id_kategori_edukasi(db: Session, nama_kategori: str) -> int:
-    kategori = db.query(KategoriEdukasi).filter(
-        KategoriEdukasi.nama_kategori_edu == nama_kategori
-    ).first()
-    return kategori.id_kategori_edu if kategori else None
-
-
 def seed_edukasi_tani(db: Session):
     daftar_edukasi = muat_json("edukasi_metadata.json")
 
     for item in daftar_edukasi:
         judul = item.get("judul", "")
-        sudah_ada = db.query(EdukasiTani).filter(
-            EdukasiTani.judul == judul
-        ).first()
+        sudah_ada = db.query(EdukasiTani).filter(EdukasiTani.judul == judul).first()
 
         if sudah_ada:
             print(f"  [SKIP] Sudah ada: {judul[:50]}...")
             continue
 
-        id_klasifikasi = cari_id_kategori_klasifikasi(db, item.get("kategori", ""))
-        id_edukasi = cari_id_kategori_edukasi(db, item.get("kategori_edukasi", ""))
+        # Helper lookup inline untuk menghemat baris
+        id_klasifikasi_obj = db.query(KategoriKlasifikasi).filter(
+            KategoriKlasifikasi.kode_kelas == item.get("kategori", "")
+        ).first()
+        
+        id_edukasi_obj = db.query(KategoriEdukasi).filter(
+            KategoriEdukasi.nama_kategori_edu == item.get("kategori_edukasi", "")
+        ).first()
 
-        if not id_edukasi:
-            print(f"  [SKIP] Kategori edukasi '{item.get('kategori_edukasi')}' tidak ditemukan")
+        if not id_edukasi_obj:
+            print(f"  [SKIP] Kategori edukasi '{item.get('kategori_edukasi')}' tidak ditemukan untuk {judul}")
             continue
 
-        gambar = None
-        image_data = item.get("image", {})
-        if image_data and image_data.get("url"):
-            gambar = image_data["url"]
+        gambar = item.get("image", {}).get("url") if item.get("image") else None
 
         edukasi_baru = EdukasiTani(
-            id_kategori_edu=id_edukasi,
-            id_kategori_klasifikasi=id_klasifikasi,
+            id_kategori_edu=id_edukasi_obj.id_kategori_edu,
+            id_kategori_klasifikasi=id_klasifikasi_obj.id_kategori if id_klasifikasi_obj else None,
             judul=judul,
             gambar=gambar,
             ringkasan=item.get("ringkasan", ""),
@@ -204,40 +167,29 @@ def seed_edukasi_tani(db: Session):
         print(f"  [INSERT] {judul[:50]}...")
 
     db.commit()
-    print("Seed edukasi_tani selesai.")
 
 # ============================================================
 # JALANKAN SEMUA SEED
 # ============================================================
-
 def run_seed():
+    # Catatan: Base.metadata.create_all tidak wajib jika Anda sudah menjalankan 
+    # 'alembic upgrade head' di docker-compose command, tapi tidak masalah dibiarkan.
     Base.metadata.create_all(bind=engine)
+    
     db = Session(bind=engine)
     try:
-        print("🚀 Mulai seed data...")
-        print("-" * 50)
-        
+        print("Mulai seed data...")
         seed_kategori_klasifikasi(db)
-        print()
-        
         seed_agen_penyebab(db)
-        print()
-        
         seed_kategori_edukasi(db)
-        print()
-        
         seed_edukasi_tani(db)
-        print()
-        
-        print("-" * 50)
-        print("✅ Semua seed selesai!")
+        print("Semua seed selesai!")
     except Exception as e:
         db.rollback()
-        print(f"❌ Error seeding data: {e}")
+        print(f"Error seeding data: {e}")
         raise e
     finally:
         db.close()
-
 
 if __name__ == "__main__":
     run_seed()

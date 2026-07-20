@@ -21,6 +21,8 @@ services:
     container_name: pantau_cabai_api
     environment:
       DATABASE_URL: "postgresql://postgres:12345678@db:5432/pantau_cabai"
+      HTTPS : true
+      FORWARD_ALLOW_IPS: "*"  
       SECRET_KEY: super-secret-key-change-in-production
       ALGORITHM: HS256
       ACCESS_TOKEN_EXPIRE_MINUTES: 60
@@ -37,7 +39,6 @@ services:
       - "8001:8000"
     volumes:
       - ./uploads:/app/uploads
-      - ./app/db:/app/app/db
     depends_on:
       db:
         condition: service_healthy
