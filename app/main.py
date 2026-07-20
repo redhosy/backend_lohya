@@ -1,7 +1,6 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.staticfiles import StaticFiles  
-from fastapi.middleware.httpsredirect import HTTPSRedirectMiddleware
 
 from app.api.routes import router as root_router
 from app.api.auth_router import router as auth_router
@@ -34,7 +33,6 @@ app = FastAPI(
     description="Backend API untuk klasifikasi visual daun cabai",
     version="2.0.0",
 )
-app.add_middleware(HTTPSRedirectMiddleware)
 
 app.add_middleware(
     CORSMiddleware,
