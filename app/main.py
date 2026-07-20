@@ -25,7 +25,6 @@ from app.models.laporan_baru import LaporanBaru
 from admin.views import setup_admin
 
 
-Base.metadata.create_all(bind=engine)
 logger.info("Database tables created/verified")
 
 
@@ -41,7 +40,6 @@ app.add_middleware(
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
-    trusted_hosts="*"    
 )
 
 app.include_router(root_router, prefix="/api")
