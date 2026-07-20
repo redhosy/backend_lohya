@@ -34,11 +34,11 @@ app = FastAPI(
     description="Backend API untuk klasifikasi visual daun cabai",
     version="2.0.0",
 )
+app.add_middleware(HTTPSRedirectMiddleware)
 
 app.add_middleware(
     CORSMiddleware,
-    HTTPSRedirectMiddleware,
-    allow_origins=["*"],
+    allow_origins=["https://pantaucabai.redoksy.cloud"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
